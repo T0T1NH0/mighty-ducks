@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(95, 161, 153);
+}
+
+header {
+    position: relative;
+}
+
+.bannercontainer {
+    height: 31.4vh;
+}
+
+.banner {
+    opacity: 0.8;
+    width: 100%;
+}
+
+.logocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.logo {
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    top: 0%;
+}
+
+.navconteiner1 {
+    background: rgb(248, 225, 46);
+    display: flex;
+    justify-content: center;
+
+}
+
+.navconteiner1>a {
+    font-weight: bold;
+    padding: 7px;
+    margin: 0 7px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background: black;
+    color: yellow;
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Helvetica;
+    background: rgb(45, 116, 107);
+    color: rgb(48, 185, 132);
+    padding: 10px;
+    margin: 0%;
+}
+
+.boxconteiner {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.August16 {
+    margin-left: 25%;
+}
+
+.September1{
+    margin-left: 35%;
+}
+
+footer{
+    background: rgb(45, 116, 107);
+    height: 34px;
+
+}
+
+footer > p {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
