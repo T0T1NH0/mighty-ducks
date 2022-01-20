@@ -1,3 +1,7 @@
+html {
+    margin: auto;
+}
+
 body {
     background-color: rgb(95, 161, 153);
 }
@@ -8,10 +12,10 @@ header {
 
 .bannercontainer {
     height: 31.4vh;
+    width: 100%;
 }
 
 .banner {
-    opacity: 0.8;
     width: 100%;
 }
 
@@ -33,7 +37,6 @@ header {
     background: rgb(248, 225, 46);
     display: flex;
     justify-content: center;
-
 }
 
 .navconteiner1>a {
@@ -57,6 +60,7 @@ a:hover {
     background: rgb(45, 116, 107);
     color: rgb(48, 185, 132);
     padding: 10px;
+    width: 98.5%;
     margin: 0%;
 }
 
@@ -65,26 +69,95 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .August16 {
     margin-left: 25%;
 }
 
-.September1{
+.September1 {
     margin-left: 35%;
 }
 
-footer{
+footer {
     background: rgb(45, 116, 107);
-    height: 34px;
-
+    padding: 8px;
+    width: 98.8%;
+    position: absolute;
+    bottom: 0%;
 }
 
-footer > p {
+footer>p {
     margin: 0%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
+
+@media (max-width: 1080px) {
+    .logo {
+        display: none;
+    }
+
+    .bannercontainer {
+        height: 8vh;
+    }
+
+    .MightyHockey {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 20px;
+        color: yellow;
+        -webkit-text-stroke: 1px rgb(198, 72, 50);
+
+    }
+
+    .Mighty {
+        margin: 0%;
+    }
+
+    .Hockey {
+        margin: 0%;
+    }
+
+    .boxconteiner {
+        margin: 30px;
+        margin-top: 67px;
+        margin-bottom: 67px;
+    }
+
+    .textcontainer {
+        margin: 30px;
+    }
+
+    .September1 {
+        margin: 0%;
+        padding-left: 25%;
+    }
+
+    .August16 {
+        margin: 0%;
+        margin-left: 23%;
+    }
+
+    .August4 {
+        margin: 0%;
+        margin-left: 8%;
+    }
+
+    .mdhlfundraiser {
+        padding-right: 15px;
+    }
+
+
+}
+
+@media (min-width: 1080px) {
+    .MightyHockey {
+        display: none;
+    }
+}
