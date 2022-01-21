@@ -41,20 +41,27 @@ header {
 
 .navcontainer1 {
     background: rgb(248, 225, 46);
-    display: flex;
-    justify-content: center;
+    text-decoration: none;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.navcontainer1>a {
+.navcontainer1>li {
     font-weight: bold;
     padding: 7px;
     margin: 0 7px;
-    text-decoration: none;
-    color: black;
+    list-style: none;
 }
 
-a:hover {
+a:link {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+li:hover {
     background: black;
     color: yellow;
 }
@@ -70,21 +77,19 @@ a:hover {
     margin: 0%;
 }
 
-.boxconteiner {
+.boxcontainer {
     font-family: Helvetica;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 100%;
 }
 
-.August16 {
-    margin-left: 25%;
-}
 
-.September1 {
-    margin-left: 35%;
+
+.FirstGame {
+    margin-left: 15px;
 }
 
 main {
@@ -109,9 +114,22 @@ footer p {
         display: none;
     }
 
-
     .bannercontainer {
-        height: 8vh;
+        height: 10vh;
+    }
+
+    header {
+        height: 7vh;
+    }
+
+
+    main {
+        height: 68vh;
+    }
+
+    footer {
+        height: 7vh;
+        font-size: 12px;
     }
 
     .MightyHockey {
@@ -126,6 +144,10 @@ footer p {
 
     }
 
+    .events {
+        font-size: 20px;
+    }
+
     .Mighty {
         margin: 0%;
     }
@@ -134,10 +156,6 @@ footer p {
         margin: 0%;
     }
 
-    .boxconteiner {
-        margin: 30px;
-        margin-top: 55px;
-    }
 
     .textcontainer {
         margin: 30px;
@@ -160,7 +178,6 @@ footer p {
         display: flex;
         justify-content: center;
     }
-
 
 }
 
