@@ -1,22 +1,28 @@
-html {
-    margin: auto;
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 body {
     background-color: rgb(95, 161, 153);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
 }
+
+
 
 header {
-    position: relative;
+    height: 30vh;
 }
+
 
 .bannercontainer {
-    height: 31.4vh;
-    width: 100%;
-}
-
-.banner {
-    width: 100%;
+    background-image: url(../utils/design1_image2.png);
+    height: 80%;
+    background-position: bottom;
 }
 
 .logocontainer {
@@ -33,13 +39,14 @@ header {
     top: 0%;
 }
 
-.navconteiner1 {
+.navcontainer1 {
     background: rgb(248, 225, 46);
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
-.navconteiner1>a {
+.navcontainer1>a {
     font-weight: bold;
     padding: 7px;
     margin: 0 7px;
@@ -59,8 +66,7 @@ a:hover {
     font-family: Helvetica;
     background: rgb(45, 116, 107);
     color: rgb(48, 185, 132);
-    padding: 10px;
-    width: 98.5%;
+    width: 100%;
     margin: 0%;
 }
 
@@ -69,7 +75,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: space-between;
+    height: 100%;
 }
 
 .August16 {
@@ -80,16 +87,18 @@ a:hover {
     margin-left: 35%;
 }
 
-footer {
-    background: rgb(45, 116, 107);
-    padding: 8px;
-    width: 98.8%;
-    position: absolute;
-    bottom: 0%;
+main {
+    height: 65vh;
 }
 
-footer>p {
-    margin: 0%;
+footer {
+    background: rgb(45, 116, 107);
+    width: 100%;
+    padding: 10px;
+    height: 5vh;
+}
+
+footer p {
     display: flex;
     justify-content: start;
 }
@@ -99,6 +108,7 @@ footer>p {
     .logo {
         display: none;
     }
+
 
     .bannercontainer {
         height: 8vh;
@@ -126,8 +136,7 @@ footer>p {
 
     .boxconteiner {
         margin: 30px;
-        margin-top: 67px;
-        margin-bottom: 67px;
+        margin-top: 55px;
     }
 
     .textcontainer {
@@ -136,21 +145,20 @@ footer>p {
 
     .September1 {
         margin: 0%;
-        padding-left: 25%;
+        display: flex;
+        justify-content: center;
     }
 
     .August16 {
         margin: 0%;
-        margin-left: 23%;
+        display: flex;
+        justify-content: center;
     }
 
     .August4 {
         margin: 0%;
-        margin-left: 8%;
-    }
-
-    .mdhlfundraiser {
-        padding-right: 15px;
+        display: flex;
+        justify-content: center;
     }
 
 
