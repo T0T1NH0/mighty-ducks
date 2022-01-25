@@ -4,8 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 10%;
-    margin-top: 2%;
+    margin-top: 7px;
 }
 
 .FirstArticle {
@@ -16,11 +15,6 @@
     margin: 0%;
     display: flex;
     justify-content: center;
-}
-
-.Information1 {
-    margin-left: 20px;
-
 }
 
 .SecondArticle {
@@ -56,15 +50,4 @@
         width: 90%;
     }
 
-    .Information1 {
-        margin-left: 5vh;
-    }
-
-    .HockeyLeague {
-        margin-left: 3vh;
-    }
-
-    .TheMightyDucks {
-        margin-left: 4vh;
-    }
 }
