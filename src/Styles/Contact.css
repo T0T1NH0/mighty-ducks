@@ -1,0 +1,45 @@
+.boxcontainer {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    margin-top: 3%;
+}
+
+.textcontainer {
+    padding-top: 20vh;
+}
+
+.FirstP {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.SecondP {
+    font-size: 30px;
+}
+
+@media (max-width: 617px) {
+
+    .FirstP {
+        padding-top: 10vh;
+        font-size: 14px;
+    }
+
+    .SecondP {
+        font-size: 15px;
+    }
+
+    .textcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+}

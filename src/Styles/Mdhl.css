@@ -1,0 +1,70 @@
+.boxcontainer {
+    font-family: Helvetica;
+    font-size: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    margin-top: 2%;
+}
+
+.FirstArticle {
+    width: 63%;
+}
+
+.Mission {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.Information1 {
+    margin-left: 20px;
+
+}
+
+.SecondArticle {
+    margin: 3%;
+    width: 60%;
+}
+
+.Vision {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.GeneralInformation {
+    display: flex;
+    justify-content: center;
+}
+
+.ThirdArticle {
+    width: 60%;
+}
+
+@media (max-width: 500px) {
+    .FirstArticle {
+        width: 90%;
+    }
+
+    .SecondArticle {
+        width: 85%;
+    }
+
+    .ThirdArticle {
+        width: 90%;
+    }
+
+    .Information1 {
+        margin-left: 5vh;
+    }
+
+    .HockeyLeague {
+        margin-left: 3vh;
+    }
+
+    .TheMightyDucks {
+        margin-left: 4vh;
+    }
+}

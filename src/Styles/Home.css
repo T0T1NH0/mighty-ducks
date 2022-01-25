@@ -1,0 +1,83 @@
+.events {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Helvetica;
+    background: rgb(45, 116, 107);
+    color: rgb(48, 185, 132);
+    width: 100%;
+    margin: 0%;
+}
+
+.boxcontainer {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    margin-top: 3%;
+}
+
+.September1 {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.August16 {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.August4 {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.textcontainer {
+    margin: 3%;
+}
+
+.FirstGame {
+    margin-left: 15px;
+}
+
+@media (max-width: 1080px) {
+    .events {
+        font-size: 20px;
+    }
+
+    .Mighty {
+        margin: 0%;
+    }
+
+    .Hockey {
+        margin: 0%;
+    }
+
+
+    .textcontainer {
+        margin: 30px;
+    }
+
+    .September1 {
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .August16 {
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .August4 {
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
