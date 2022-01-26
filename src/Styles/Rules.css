@@ -2,67 +2,36 @@ main {
     font-family: sans-serif;
 }
 
-.firstArticle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
-}
 
 .rulesOfPlay {
-    font-size: 25px;
-    font-weight: bold;
-    font-family: helvetica;
-    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    background: rgb(45, 116, 107);
+    color: rgb(48, 185, 132);
+    width: 100%;
+    margin: 0%;
+    height: 6vh;
 }
 
-
-.secondArticle {
+.boxcontainer {
+    font-family: Helvetica;
+    font-size: 2.5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    justify-content: space-evenly;
+    height: 92vh;
 }
 
-.Information1 {
-    width: 65%;
-    margin-top: 6px;
+section article {
+    width: 60%;
 }
 
-.thirdArticle {
+article h2 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 25px;
+    justify-content: center;
 }
 
-.Dimensions {
-    width: 65%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.competitionFields {
-    width: 65%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.Fields {
-    width: 65%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.fourthArticle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 25px;
-}
-
-.Information2 {
-    width: 65%;
-    margin-top: 10px;
-    margin-bottom: 15px;
+article p {
+    margin-top: 15px;
 }

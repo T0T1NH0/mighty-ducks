@@ -1,7 +1,3 @@
-main {
-    font-family: sans-serif;
-}
-
 main section div article p,
 main section p,
 main section div h2 {
@@ -27,7 +23,8 @@ table {
     margin-bottom: 15px;
 }
 
-td, th {
+td,
+th {
     border: 1px solid black;
     width: 27vh;
     height: 5vh;
@@ -47,7 +44,7 @@ td, th {
 }
 
 
-main section div p {
+section div p {
     width: 60vh;
 }
 

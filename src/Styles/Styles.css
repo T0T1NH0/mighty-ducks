@@ -18,6 +18,7 @@ header {
 
 main {
     min-height: 58vh;
+    font-family: sans-serif;
 }
 
 .bannercontainer {
@@ -51,7 +52,6 @@ main {
 .navcontainer1 li {
     font-weight: bold;
     padding: 10px;
-    margin: 0 7px;
     list-style: none;
 }
 

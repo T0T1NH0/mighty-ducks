@@ -4,50 +4,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 7px;
+    justify-content: space-evenly;
+    height: 52vh;
 }
 
-.FirstArticle {
-    width: 63%;
-}
-
-.Mission {
-    margin: 0%;
+.aboutMdhl {
     display: flex;
     justify-content: center;
+    background: rgb(45, 116, 107);
+    color: rgb(48, 185, 132);
+    width: 100%;
 }
 
-.SecondArticle {
-    margin: 3%;
+section article {
     width: 60%;
 }
 
-.Vision {
-    margin: 0%;
+section article h2 {
     display: flex;
     justify-content: center;
 }
 
-.GeneralInformation {
-    display: flex;
-    justify-content: center;
-}
+@media (max-width: 693px) {
+    .boxcontainer {
+        height: 71vh;
+    }
 
-.ThirdArticle {
-    width: 60%;
-}
-
-@media (max-width: 500px) {
-    .FirstArticle {
+    section article {
         width: 90%;
     }
-
-    .SecondArticle {
-        width: 85%;
-    }
-
-    .ThirdArticle {
-        width: 90%;
-    }
-
 }
