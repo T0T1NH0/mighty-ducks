@@ -1,0 +1,68 @@
+main {
+    font-family: sans-serif;
+}
+
+.firstArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.rulesOfPlay {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: helvetica;
+    margin-bottom: 5px;
+}
+
+
+.secondArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Information1 {
+    width: 65%;
+    margin-top: 6px;
+}
+
+.thirdArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.Dimensions {
+    width: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.competitionFields {
+    width: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Fields {
+    width: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fourthArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.Information2 {
+    width: 65%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}

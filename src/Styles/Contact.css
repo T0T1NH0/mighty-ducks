@@ -1,7 +1,10 @@
 .boxcontainer {
     font-family: Helvetica;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    height: 58vh;
 }
 
 .FirstP {
@@ -31,8 +34,4 @@ span {
         font-size: 15px;
     }
 
-    .textcontainer {
-        display: flex;
-        flex-direction: column;
-    }
 }
