@@ -25,7 +25,7 @@
                 <li><a class="blackyellow" href="../src/Home.html">Home</a></li>
                 <li><a class="GameInformation" href="../src/GameInformation.html">Game Information</a></li>
                 <li><a class="mdhl" href="../src/AboutMdhl.html">About MDHL</a></li>
-                <li><a class="RegistrationForm" href="RegistrationForm.html">Registration Form</a></li>
+                <li><a class="RegistrationForm" href="RegistrationForm.html">Form</a></li>
                 <li><a class="Rules" href="Rules.html">Rules</a></li>
                 <li><a class="contact" href="../src/Contact.html">Contact</a></li>
             </ul>
@@ -36,23 +36,134 @@
         <h1 class="registrationForm">REGISTRATION FORM</h1>
         <section>
             <form method='GET' action="../show_data.html">
-                <fieldset>
-                    <legend>titulo del formulario</legend>
-                    <label for="PlayerFirtsName">Player Firts Name:</label>
-                    <input type="text" id='PlayerFirtsName' name='PlayerFirtsName' />
-                    <label for="LastName">Last Name:</label>
-                    <input type="text" id='LastName:' name='LastName:' />
-                    <label for="StreetAddress">Street Address</label>
-                    <input type="text" id='StreetAddress' name='StreetAddress' />
-                    <label for="City">City</label>
-                    <input type="city" id='city' name='city' />
-                    <label for="ZipCode">Zip Code</label>
-                    <input type="ZipCode" id='ZipCode' name='ZipCode' />
-                    <label for="BirthDate">Birth Date(mm/dd/yyyy):</label>
-                    <input type="date" id="BirthDate" name="BirthDate">
-                    <input type='submit' name='Submit' value='enviar' />
+                <fieldset class="sameFieldsetHeight">
+                    <legend class="sameLegendHeight">PERSONAL Information</legend>
+                    <div>
+                        <label for="PlayerFirtsName">Player Firts Name:</label>
+                        <input type="text" id='PlayerFirtsName' name='PlayerFirtsName' />
+                    </div>
+                    <div>
+                        <label for="LastName">Last Name:</label>
+                        <input type="text" id='LastName:' name='LastName:' />
+                    </div>
+                    <div>
+                        <label for="StreetAddress">Street Address</label>
+                        <input type="text" id='StreetAddress' name='StreetAddress' />
+                    </div>
+                    <div>
+                        <label for="City">City</label>
+                        <input type="city" id='city' name='city' />
+                    </div>
+                    <div>
+                        <label for="ZipCode">Zip Code</label>
+                        <input type="ZipCode" id='ZipCode' name='ZipCode' />
+                    </div>
+                    <div>
+                        <label for="BirthDate">Birth Date(mm/dd/yyyy):</label>
+                        <input type="date" id="BirthDate" name="BirthDate">
+                    </div>
+                    <div class="divGender">
+                        <p>Gender:</p>
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender" value="female" />
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="male" />
+                    </div>
+                    <div>
+                        <p>Grade:</p>
+                        <label for="preSchool">Pre-School</label>
+                        <input type="radio" id="preSchool" name="grade" value="preSchool" />
+                        <label for="1st">1st</label>
+                        <input type="radio" id="1st" name="grade" value="1st" />
+                        <label for="2nd">2nd</label>
+                        <input type="radio" id="2nd" name="grade" value="2nd" />
+                        <label for="3rd">3rd</label>
+                        <input type="radio" id="3rd" name="grade" value="3rd" />
+                        <label for="4th">4th</label>
+                        <input type="radio" id="4th" name="grade" value="4th" />
+                        <label for="5th">5th</label>
+                        <input type="radio" id="5th" name="grade" value="5th" />
+                    </div>
                 </fieldset>
+                <fieldset class="sameFieldsetHeight">
+                    <legend>Which elementary school dou you live near?</legend>
+                    <div class="selectSchool">
+                        <label for="mostNearSchool">Select one of the schools near you:</label>
+                        <select name="firstSchool" id="mostNearSchool">
+                            <option value="AJKatzenmaier">AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="HowardAYeager">Howard A Yeager</option>
+                            <option value="MarjoriePHart">Marjorie P Hart</option>
+                            <option value="NorthElemtary">North Elemtary</option>
+                            <option value="SouthElementary">South Elementary</option>
+                        </select>
+                        <label for="mostNearSchool">Select a second from the schools near you:</label>
+                        <select name="firstSchool" id="mostNearSchool">
+                            <option value="AJKatzenmaier">AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="HowardAYeager">Howard A Yeager</option>
+                            <option value="MarjoriePHart">Marjorie P Hart</option>
+                            <option value="NorthElemtary">North Elemtary</option>
+                            <option value="SouthElementary">South Elementary</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset class="thirdFieldset">
+                    <legend>What position(s) do you normally play? (check all that apply)</legend>
+                    <div class="positionCheckbox">
+                        <label for="position">Forward</label>
+                        <input type="checkbox" id="cursos" value="html">
+                        <label for="position">Midfield</label>
+                        <input type="checkbox" id="cursos" value="css">
+                        <label for="position">Defense</label>
+                        <input type="checkbox" id="cursos" value="javascript">
+                        <label for="position">Goalkeeper</label>
+                        <input type="checkbox" id="cursos" value="jquery">
+                    </div>
+                </fieldset>
+                <fieldset class="fourthFieldset">
+                    <legend class="sameLegendHeight"> Uniform Size:</legend>
+                    <label for="youthSmall">Youth Small</label>
+                    <input type="radio" id="youthsmall" name="uniformSize" value="youthSmall" />
+                    <label for="youthMedium">Youth Medium</label>
+                    <input type="radio" id="youthMedium" name="uniformSize" value="youthMedium" />
+                    <label for="youthLarge">Youth Large</label>
+                    <input type="radio" id="youthLarge" name="uniformSize" value="youthLarge" />
+                    <label for="small">Small</label>
+                    <input type="radio" id="small" name="uniformSize" value="small" />
+                    <label for="medium">Medium</label>
+                    <input type="radio" id="medium" name="uniformSize" value="medium" />
+                    <label for="large">Large</label>
+                    <input type="radio" id="large" name="uniformSize" value="large" />
+                    <label for="extraLarge">Extra-Large</label>
+                    <input type="radio" id="extraLarge" name="uniformSize" value="extraLarge" />
+                </fieldset>
+                <div class="parentalPermission">
+                    <h2>PERMISSION TO PLAY</h2>
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and i will abide by
+                        all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
+                        physical injury associated with hockey and in consideration for the "League" accepting the
+                        registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise
+                        indemnify MDHL, their employees and associated personnel and volunteers, including the
+                        facilities used for practices and games, against any claim by or on behalf of the registrant as
+                        a result of the registrant's participation in the prrogramand/orbeing transported to or from
+                        MDHL sponsored activities, which transportation.</p>
+                    <p>By putting my name below, I hereby agree and authorize the above. In addition, I also acknowledge
+                        that i have read the cancellation policy and agree to its terms.
+                    </p>
 
+                    <div>
+                        <label for="TutorPermission">Parent/GuardianSignature:</label>
+                        <input type="text" id='TutorPermission' name='TutorPermission' />
+                    </div>
+                    <div>
+                        <label for="Date">Date</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+
+                </div>
+                <input class="SendResetButtom" type='submit' name='Submit' value='Send' />
+                <input class="SendResetButtom" type="reset" />
             </form>
         </section>
     </main>
